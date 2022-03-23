@@ -1,12 +1,12 @@
 
 const mongoose=require('mongoose');
 const express=require('express');
-const Posts = require('models/post');
- let user_function=require("models/user");
- let rout=require("Routes/user");
- const interaction=require("Routes/interection");
- const user_interaction=require("Routes/interection")
-const comm=require("Routes/community");
+const Posts = require('https://github.com/divy-rj/Social-media-clone/blob/master/models/post');
+ let user_function=require("https://github.com/divy-rj/Social-media-clone/blob/master/models/user.js");
+ let rout=require("https://github.com/divy-rj/Social-media-clone/blob/master/Routes/user.js");
+ const interaction=require("https://github.com/divy-rj/Social-media-clone/blob/master/Routes/interection");
+ const user_interaction=require("https://github.com/divy-rj/Social-media-clone/blob/master/Routes/interection")
+const comm=require("https://github.com/divy-rj/Social-media-clone/blob/master/Routes/community.js");
 const Process = require("process");
 const Grid = require("gridfs-stream");
 const {GridFsStorage} = require("multer-gridfs-storage");
